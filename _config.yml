@@ -1,0 +1,44 @@
+title: "Mathew N Joy"
+description: "Sharing insights on Project Management, Agile, and AI"
+baseurl: ""
+url: "https://njmathews.github.io"
+theme: minimal-mistakes-jekyll
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation Links
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Blog"
+    url: /blog/
+  - title: "Project Management"
+    url: /project-management/
+  - title: "Agile"
+    url: /agile/
+  - title: "AI"
+    url: /ai/
+  - title: "About"
+    url: /about/
+  - title: "Contact"
+    url: /contact/
+
+# Social Media (Optional)
+social_links:
+  github: njmathews
+  linkedin: https://www.linkedin.com/in/mathew-n-joy-pmp/
+
+# Defaults for Posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Your Name"
+      comments: true
+
+# Build Settings
+markdown: kramdown
